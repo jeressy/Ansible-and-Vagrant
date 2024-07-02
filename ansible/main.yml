@@ -1,0 +1,6 @@
+---
+- name: Start CI CD
+  hosts: all
+  sudo: yes
+  roles:
+    - nginx

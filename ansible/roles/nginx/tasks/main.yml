@@ -1,0 +1,14 @@
+---
+- name: Install nginx
+  apt:
+    name: nginx
+    state: present
+  notify:
+    - Restart nginx
+
+- name: Copy HTML file to nginx root
+  copy:
+    src: /ansible/html/index.html  
+    dest: /usr/share/nginx/html/index.html 
+  notify:
+    - Restart nginx
