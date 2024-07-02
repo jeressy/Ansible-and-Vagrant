@@ -1,4 +1,4 @@
-# Automação Vagrant + Ansible para Criação do Servidor Nginx
+# Automação Vagrant + Ansible para criar um servidor Nginx
 
 Este projeto automatiza a criação e configuração de um servidor Nginx usando Vagrant e Ansible. 👩🏽‍💻
 
