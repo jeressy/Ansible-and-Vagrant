@@ -17,7 +17,7 @@ Este projeto automatiza a criação e configuração de um servidor Nginx usando
 
  
 3. **Acesso ao Nginx:**
-   Após a conclusão do provisionamento, você pode acessar em:
+   Após a conclusão do provisionamento, na maquina host, acesse em:
    ```
    http://localhost:8080
    ```
